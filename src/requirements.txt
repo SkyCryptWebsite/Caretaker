@@ -2,6 +2,6 @@ nextcord
 requests
 python-env
 openai
-gpt_index
+gpt_index==0.4.24
 PyPDF2
 PyCryptodome

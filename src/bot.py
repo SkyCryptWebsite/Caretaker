@@ -14,7 +14,7 @@ load_dotenv()
 
 bot = commands.Bot()
 TESTING_GUILD_ID = 1125840466366189598
-OPENAPI_API_KEY = os.getenv('OPENAI_KEY')
+os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_KEY')
 
 def construct_index(directory_path):
     max_input_size = 4096
@@ -48,6 +48,6 @@ async def on_ready():
 async def sky(interaction: nextcord.Interaction,query: str):
     await interaction.response.send_message(query(query))
 
-index = construct_index("docs")
+index = construct_index("src\docs") #Hard Coded for now :)
 
 bot.run(os.getenv('DISCORD_TOKEN'))
