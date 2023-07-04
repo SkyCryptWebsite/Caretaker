@@ -49,4 +49,5 @@ async def sky(interaction: nextcord.Interaction,query: str):
     await interaction.response.send_message(query(query))
 
 index = construct_index("docs")
+
 bot.run(os.getenv('DISCORD_TOKEN'))
