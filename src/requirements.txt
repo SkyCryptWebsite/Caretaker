@@ -1,0 +1,7 @@
+nextcord
+requests
+python-env
+openai
+gpt_index
+PyPDF2
+PyCryptodome
