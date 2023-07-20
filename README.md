@@ -1,4 +1,4 @@
 # Caretaker
-SkyCrypt's Beta Ai Customer Support Bot 
+Revolutionizing Developer Support with a GPT-Powered Chatbot
 
-Made by WarpWing and WarpWing only (for the moment)
+Created by Ty "WarpWing" Chermsirivatana for SkyCrypt internal use.
